@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Session Tracker</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no"> 
+    <link rel="stylesheet" href="/static/doseUI.css">
+    <script src="/static/doseUI.js"></script>
+</head>
+
+<body>
+
+    <div class="flex-row">
+
+        <button class="btn-half neg">Discard</button>
+        <button class="btn-half pos">Submit</button>
+
+    </div>
+
+    <div class="spacer"></div>
+
+
+    <div class="timer-widget">
+
+        <div class="timer-div">
+            <div class="timer-text-lg current-timer">0</div>
+            <div class="timer-text-sm current-timer">00</div>
+        </div>
+
+        <div class="timer-label-div">
+            Current Dose
+        </div>
+
+    </div>
+
+    <hr>
+
+    <div class="spacer"></div>
+
+    <div class="timer-widget">
+
+        <div class="timer-div">
+            <div class="session-timer-text-lg timer-text-lg session-timer">0</div>
+            <div class="session-timer-text-sm timer-text-sm session-timer">00</div>
+        </div>
+
+        <div class="timer-label-div">
+            Session Total
+        </div>
+        <div class="spacer"></div>
+        <div class="spacer"></div>
+
+    </div>
+
+    <button id="dose-btn" class="btn-whole pos">Dose</button>
+
+
+
+</body>
+
+</html>
